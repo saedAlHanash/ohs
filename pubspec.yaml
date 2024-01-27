@@ -1,0 +1,81 @@
+name: ohs
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter_localizations:
+    sdk: flutter
+  flutter:
+    sdk: flutter
+
+  drawable_text:
+    git:
+      url: https://github.com/saedAlHanash/drawable_text
+      ref: android
+
+  image_multi_type:
+    git:
+      url: https://github.com/saedAlHanash/image_multi_type
+
+  permission_handler:
+  uuid:
+  share_plus:
+  cupertino_icons: ^1.0.2
+  excel: ^4.0.2
+
+  hive: ^2.2.3
+  hive_flutter: any
+  file_picker: ^6.1.1
+  path_provider: ^2.1.1
+  bloc: ^8.1.0
+  flutter_bloc: any
+  syncfusion_flutter_pdfviewer: ^22.2.9
+  equatable: ^2.0.5
+  syncfusion_flutter_datepicker: ^22.2.10
+  get_it: any
+
+  shared_preferences: any
+  flutter_screenutil: any
+  logger: ^1.1.0
+  dropdown_button2: ^2.3.9
+  collection: any
+
+  awesome_dialog: any
+  intl: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/fonts/
+    - assets/icons/
+    - assets/lotties/
+    - assets/sounds/
+  fonts:
+    - family: cairo
+      fonts:
+        - asset: assets/fonts/cairo.ttf
+    - family: cairoBold
+      fonts:
+        - asset: assets/fonts/cairo_bold.ttf
+    - family: cairoSemiBold
+      fonts:
+        - asset: assets/fonts/cairo_semi_bold.ttf
+
+flutter_intl:
+  enabled: true
+
+
+
+
